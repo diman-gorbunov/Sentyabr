@@ -1,0 +1,39 @@
+<!doctype html>
+<html ng-app="SampleApp">
+<head>
+	<meta charset="utf-8">
+	<title>JQ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<p><b>1.Создайте AJAX запросы, которые должны после нажатия на соответствующие кнопки обращаться к файлам autumn.txt, winter.txt, summer.txt, и spring.txt и затем отображать результат выполнения запроса в абзац с id=par1.</b></p>
+<div id="code">
+    <p id="par1">В данном абзаце будут отображены результаты запросов.</p>
+    <input id="but1" type="button" value="Обратится к файлу autumn.txt" />
+    <input id="but2" type="button" value="Обратится к файлу winter.txt" />
+    <br /><br />
+    <input id="but3" type="button" value="Обратится к файлу summer.txt" />
+    <input id="but4" type="button" value="Обратится к файлу spring.txt" />
+</div>
+<p><b>2. При передаче скрипту secretword.php определенных комбинаций переменных перечисленных ниже он будет возвращать буквы кодового слова. После нажатия на кнопку с id=but5 элемент span c id=let1 должен содержать первую букву кодового слова, span c id=let2 вторую и т.д.</b></p>
+<div id="code">
+    <ul>
+        <li>Первая буква кодового слова будет возвращена если передать скрипту переменную horse со значением 10</li>
+        <li>Вторая буква кодового слова будет отображена если передать скрипту переменные look и meadow со значениями 5 и 23.</li>
+        <li>Третья буква кодового слова будет отображена если передать скрипту переменные dew и mount со значениями 6 и 64.</li>
+        <li>Четвертая буква кодового слова будет отображена если передать скрипту переменные bond и march со значениями 24 и 40.</li>
+        <li>Пятая буква кодового слова будет отображена если  передать скрипту переменные wise, strong и curve со значениями 43, 4 и 29.</li>
+        <li>Шестая буква кодового слова будет отображена если  передать скрипту переменные fast, clever и moon со значениями 31, 76 и 20.</li>
+    </ul>
+    <p>Кодовое слово:<span id="let1"></span><span id="let2"></span><span id="let3"></span><span id="let4"></span><span id="let5"></span><span id="let6"></span></p>
+    <input id="but5" type="button" value="Отобразить кодовое слово" />
+</div>
+<p><b>3. Выполните предыдущий пункт используя низкоуровневый метод .ajax(). После нажатия на кнопку с id=but6 элемент span c id=slet1 должен содержать первую букву кодового слова, span c id=slet2 вторую и т.д.</b></p>
+<div id="code">
+    <p>Кодовое слово:<span id="slet1"></span><span id="slet2"></span><span id="slet3"></span><span id="slet4"></span><span id="slet5"></span><span id="slet6"></span></p>
+    <input id="but6" type="button" value="Отобразить кодовое слово" />
+</div>
+</body>
+</html>

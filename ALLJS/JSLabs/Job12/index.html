@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="SampleApp">
+<head>
+	<meta charset="utf-8">
+	<title>JQ</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h2>Информация о плагине adjust</h2>
+<p>С помощью <b>плагина adjust</b> Вы можете изменять цвет и размер шрифта выбранных элементов.</p>
+<p>Для того, чтобы подключить плагин adjust необходимо добавить следующий код в секцию head:
+    <i><script src="http://wisdomweb.ru/editor/plugin1.js"></script></i>. </p>
+<p>С помощью опции <b>size</b> плагина Вы можете задать размер шрифта, а с помощью опции <b>color</b> цвет. По умолчанию опция color имеет значении green, а опция size 1.4em.</p>
+<hr />
+<h2>Демонстрация использования</h2>
+<div id="demo">
+    <p>Я первый абзац.</p>
+    <p>Я второй абзац.</p>
+    <p>Я третий абзац.</p>
+    <p>Я четвертый абзац.</p>
+</div>
+<input type="button" id="but1" value="Изменить оформление абзацев используя опции по умолчанию" />
+<br /><br />
+<input type="button" id="but2" value="Изменить оформление абзацев передав опцию size" />
+<br /><br />
+<input type="button" id="but3" value="Изменить оформление абзацев передав обе опции" />
+<br /><br />
+</body>
+</html>

@@ -1,0 +1,31 @@
+#code
+{
+    background-color:#fffDBD;
+    margin:10px;
+    padding:5px;
+}
+#par1
+{
+    visibility:hidden;
+}
+#style1
+{
+    color:blue;
+    font-family:"Times New Roman";
+}
+#style2
+{
+    font-weight:bold;
+    font-family:Verdana;
+}
+#style3
+{
+    color:red;
+    font-size:20px;
+}
+#style4
+{
+    color:green;
+    font-family:Arial;
+    font-size:25px;
+}
